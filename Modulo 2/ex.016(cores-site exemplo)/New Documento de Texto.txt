@@ -1,0 +1,29 @@
+
+
+   Configracao global das css
+   
+   *{
+  }
+
+familas de fontes
+
+Medidas absolutas
+cm, mm, in( polegadas), px, pt(ponto) e pc( paica)
+
+
+Medidas relativas
+em(tamanho), ex(altura), rem( fonte), vw( larfura), 
+
+16px = 1em
+
+pesos da fonte
+lighter, normal , bold bolder
+
+Em css
+
+font-size tamanho
+font- weight negrito
+font-decoration sublinhado 
+
+como condensar as as tres fontes propriedade shorthand
+(font: font-style font-weight font-size font-family) 

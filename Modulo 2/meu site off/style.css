@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+@font-face {
+   font-family: 'Bangers';
+   src: url('../fontes/Bangers-Regular.ttf') format('truetype');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'Rampart One';
+   src: url('../fontes/RampartOne-Regular.ttf') format('truetype');
+   font-weight: normal;
+}
+
+
+:root{
+
+    --cor00: #D1D0CD;
+    --cor001: white;
+    --cor00back:#FFFFFF;
+    --cor00deg1: #64B5F6;
+    --cor00deg2: #1C0051;
+    --cor00rodape: #212442;
+    --fonte-de-cabeca: 'Bangers', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-de-cabecalho: 'Bangers', Cursive;
+    --fonte-de-cabecalho2: 'Fugaz One' , Cursive;
+    --fonte-de-cabecalho3: 'Creepster' , Cursive;
+    --fonte-de-subtitulo: 'Rampart One' , Cursive;
+    --fonte-de-subtitulo-1: 'Rampart One' , Cursive;
+
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+ }
+
+ nav{
+
+   background-image: linear-gradient(to left, var(--cor00deg1), var(--cor00deg2)); 
+
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+ }
+
+ nav > a{
+    color: white;
+    padding: 60px;
+    text-decoration: none;
+    transition-duration: .5s;
+ }
+ nav > a:hover{
+   /* background-color: var(--cor2);
+    border-radius: 5px;
+    color: var(--cor4);*/
+}
+ header{
+    
+     
+      
+
+ }
+ header h1{
+     background-image: linear-gradient(to left, var(--cor00deg1), var(--cor00deg2));
+     font-size: 5em;
+     font-weight: normal;
+    font-family: var(--fonte-de-cabeca);
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.096);
+     height: 200px;
+     color: white;
+     
+     
+ }
+
+ body{
+
+    background-color: var(--cor00back);
+    font-family: var(--fonte-padrao);
+ }
+ main{
+    min-width: 300px;
+    max-width: 1000px;
+     margin: auto;
+    background-color: var(--cor001); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px ;
+    
+   
+ }
+
+ main p{
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 30px;
+
+ }
+
+ main h2{
+    font-family: var(--fonte-de-subtitulo-1);
+    font-size: 3em;
+ }
+
+div{
+   margin: auto;
+   text-align: center;
+   display: inline;
+}
+
+div:hover{
+   background-color: lightgrey;
+}
+
+aside > p{
+   
+   /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);*/
+   border-radius: 5px;
+   text-align: justify;
+   
+}
+h2#msg{
+   font-size: 24pt;
+}
+
+ 
+
+ footer{
+     background-color: var(--cor00rodape);
+     color: var(--cor001);
+     text-align: center;
+     height: 300px;
+    
+ }

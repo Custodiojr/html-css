@@ -1,0 +1,15 @@
+CSS3
+body{
+               font: normal 16px Arial, Verdana, Serif;
+               text-align: left;
+           }
+           h1{
+               text-align: center; centralizar
+           }
+           h2{
+               text-align: right; mais a direita
+           }
+           p{
+               text-align: justify; alinhar melhor
+               text-indent: 30px; o principio mais pra fora
+           }

@@ -1,0 +1,41 @@
+
+para colocar caracteres em links especias, vamos nomear o link como class="nome" depos o codigo abaixo
+.especial{
+              background-color: rgb(255, 140, 140);
+
+          }
+          .especial::before{
+              content: '⇒';
+          }
+          .especial::after{
+              content: '  ⇐';
+              text-decoration: none;
+              font-weight: normal;
+              color: rgb(83, 53, 53);
+          }
+
+
+para colocarmos em todos os links nao devemos nomear como classe apenas colocamos a.before/after::
+depos
+
+
+.especial{
+              background-color: rgb(255, 140, 140);
+
+          }
+          a::before{
+              content: '⇒';
+          }
+          a::after{
+              content: '  ⇐';
+              text-decoration: none;
+              font-weight: normal;
+              color: rgb(83, 53, 53);
+          }
+
+Simbolos que nos vimos nas Css Seletores personalizados
+# = id
+. = class
+: = Pseudo-Class
+:: = Pseudo- element
+> = Childreen

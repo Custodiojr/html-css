@@ -1,0 +1,6 @@
+@font-face {
+            font-family:'Nome-qualquer' ;
+            src: url('Nome-qualquer.ttf') format('TrueType'), url('Nome-qualquer.ttf') format('TrueType');
+            font-weight: normal;
+            font-style: normal;
+        }

@@ -1,0 +1,18 @@
+
+
+palavras basicas:
+
+height = altura
+width = largura
+padding = para a borda ficar destante do conteudo, ou seja espaco interno
+margin = espaco externo
+Outline = tracado, como se fosse uma borda fora elemento
+
+
+div = tag do tipo box level
+
+span = tag do tipo in-line level
+
+
+
+

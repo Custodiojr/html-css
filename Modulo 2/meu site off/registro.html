@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    
+   
+    <style>
+        
+        @font-face {
+     font-family: 'Bangers';
+     src: url('fontes/Bangers-Regular.ttf') format('truetype');
+   
+    }
+    :root{
+    --fonte-de-cabeca1: 'Bangers', cursive;
+}
+       
+        header{
+           text-align: center;
+           font-family: var(--fonte-de-cabeca1);
+           font-size: 2em;
+        }
+
+        main{
+            
+            
+            min-width: 400px;
+            max-width: 1000px;
+            margin: auto;
+            border-radius: 5px;
+            background-color: white;
+            text-align: center;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>  StreetWear Style</h1> <hr>
+    </header>
+    <main>
+        <div>
+            <form action="">
+                    
+                        <legend>Registe-se para continuar</legend>
+                        <form method="get" action="">
+                             <p>
+                                 <label for="nome"> Nome:</label>
+                                 <input type="text" name="nome" size="50" placeholder="digite o primeiro nome" id="nome">
+                             </p>
+                             <p>
+                                 <label for="nome"> Apelido:</label>
+                                 <input type="text" name="nome" size="50" placeholder="digite o teu apelido" id="nome">
+                             </p>
+                             <p>
+                                 <label for="nome-usuario"> Nome de usuário:</label>
+                                 <input type="text" name="nome-usuario" size="30" placeholder="digite o nome de usuário " id="nome-usuario">
+                             </p>
+                             <p>
+                                 <label for="data_n"> Data de nascimento:</label>
+                                 <input type="date" name="data_n" id="data_n" min="2003-01-01" max="2050-12-12" >
+                             </p>
+                             <p>
+                                 <label for="morada"> Endereço:</label>
+                                 <input type="adress" name="morada" size="30" placeholder="digite o teu endereço" id="morada">
+                             </p>
+                             <p>
+                                 <label for="password"> Senha:</label>
+                                 <input type="password" name="password" size="40" placeholder="digite a tua senha" id="password">
+                             </p>
+                             <p>
+                                 <label for="password"> Confirmar senha:</label>
+                                 <input type="password" name="password" size="40" placeholder="confirme a tua senha" id="password">
+                             </p>
+            
+                        </form>
+        </div>
+                </fieldset>
+                <p> <input type="submit" name="enviar" value="proximo ">  <input type="reset" name="limpar" value="cancelar"></p>
+        
+        </form>
+    </main>
+    
+</body>
+</html>
